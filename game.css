@@ -1,0 +1,62 @@
+h1 {
+    background-color: rgb(43, 129, 129);
+    text-align: center;
+    border: style;
+    border: saddlebrown;
+    border: 2px solid aqua;
+    padding: 30px;
+    margin: 5px;
+    color: salmon;  
+    font-size: 50px;
+}
+body {
+    background-color: saddlebrown;
+}
+input {
+    width: 30%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    position: absolute;
+    left: 30%;
+}
+
+.button {
+    background-color: #7da37f;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 0px;
+    position: absolute;
+    left: 63%;
+}
+
+#demo {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 0px;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+ 
+.refresh {
+    background-color: #7da37f;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -10px 8px;
+    position: absolute;
+    left: 70%;
+}
