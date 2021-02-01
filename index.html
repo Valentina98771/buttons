@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Guess the button!</title>
-<link href = "game.css" rel = "stylesheet">
-<link rel = "shourtcut icon" href = "mr.png" type = "mr/png">
-</head>
-<body>
-    <h1>Guess the button</h1>
-    <input type = "number" id = "number">
-    <button class = "button" onclick="myFunction();this.setAttribute('onclick', 'notTry()')">Try yout luck</button><br>
-    <!--
-        Pentru ca imi adauga  N butoane de cate ori apasam pe buton, am adaugat si functia notTry, pentru a fi cat mai corect jocul
-    -->
-    <button onClick="history.go(0);" class = "refresh">Reset game</button>
 
-    <div id = "demo"> </div>
-    
-    <script src = "game.js"></script>
-</body>
+<html>
+    <head>
+        <title>Guess the button!</title>
+        <link href = "game.css" rel = "stylesheet">
+        <link rel = "shourtcut icon" href = "mr.png" type = "mr/png">
+    </head>
+
+    <body>
+        <h1>Guess the button</h1>
+
+        <input type = "number" id = "number">
+
+        <button class = "button" onclick="myFunction();this.setAttribute('onclick', 'notTry()')">Try yout luck</button><br>
+
+        <button onClick="history.go(0);" class = "refresh">Reset game</button>
+
+        <div id = "demo"> </div>
+        
+        <script src = "game.js"></script>
+    </body>
 </html>
